@@ -1,0 +1,6 @@
+.netrwhist
+spell/*.add.spl
+spell/*.sug
+plugin/packer_compiled.lua
+*.log
+nvim-pack-lock.json

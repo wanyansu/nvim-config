@@ -1,0 +1,6 @@
+require("plugins.oil")
+require("plugins.treesitter")
+require("plugins.mini")
+require("plugins.themes")
+require("plugins.lspconfig")
+require("plugins.snacks")
