@@ -17,5 +17,6 @@ vim.keymap.set("n", "<leader><leader>x", "<cmd>source %<CR>", { desc = "Source c
 vim.keymap.set("n", "<leader>x", ":.lua<CR>", { desc = "Source " })
 vim.keymap.set("v", "<leader>x", ":lua<CR>", { desc = "Source selected lines of code" })
 vim.keymap.set("n", "<leader>f", vim.lsp.buf.format, { desc = "Format files in the buffer" })
+vim.keymap.set("n", "<leader><leader>l", function() vim.pack.update() end, { desc = "Update vim packages" })
 
 vim.cmd(":hi statusline guibg=NONE")
